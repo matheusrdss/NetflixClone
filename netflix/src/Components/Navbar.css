@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    background-image: linear-gradient(180deg, rgb(46, 46, 46), transparent);
+    height: 3.5rem;
+}
+
+.main-info {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin-top: 0.3rem;
+}
+
+.logo {
+    width: 14%;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.td {
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.td:hover {
+    color: rgb(163, 163, 163);
+    transition: 0.5s;
+}
+
+/* SECUNDARIA */
+
+.main-secundaria {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-top: 0.3rem;
+    /* margin-right: -3rem; */
+}
+
+.buscar {
+    width: 7%;
+    margin-right: 10px;
+}
+
+.perfil {
+    width: 8%;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sair {
+    width: 7rem;
+    height: 1.8rem;
+    border: 0px solid;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
