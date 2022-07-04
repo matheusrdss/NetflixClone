@@ -8,6 +8,7 @@ export default function Main() {
         <div className="Main">
             {/* <Navbar /> */}
             <Recomendar />
+            <h1 className='a'>Feito por Matheus 2022</h1>
         </div>
     </>);
 }
