@@ -9,10 +9,59 @@
     width: 100%;
 }
 
-.tadeo-div {
+.tadeo {
     width: 40%;
     position: absolute;
     top: 8rem;
     left: 4rem;
     /* background: url(../../imgs/tadeoo.png) 0 0 no-repeat; */
+}
+
+.info {
+    width: 37%;
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+}
+
+.info-filme {
+    color: white;
+    width: 110%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.assistir {
+    width: 9rem;
+    height: 2.5rem;
+    border: 0px solid white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.5s;
+    margin-right: 1rem;
+}
+
+.assistir:hover {
+    background-color: rgb(206, 206, 206);
+    transition: 0.5s;
+}
+
+.mais-infos {
+    width: 13rem;
+    height: 2.5rem;
+    border: 0px solid white;
+    background-color: rgb(158, 158, 158, 0.8);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.2s;
+    color: white;
+    text-shadow: black 0.1em 0.1em 1em;
+}
+
+.mais-infos:hover {
+    background-color: rgb(158, 158, 158, 0.6);
+    transition: 0.2s;
 }
