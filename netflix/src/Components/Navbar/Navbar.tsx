@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css';
-import logoNetflix from '../imgs/netflixx.png';
-import buscar from '../imgs/search.png';
-import userFoto from '../imgs/user.png';
+import logoNetflix from '../../imgs/netflixx.png';
+import buscar from '../../imgs/search.png';
+import userFoto from '../../imgs/user.png';
 
 export default function Navbar() {
     return (

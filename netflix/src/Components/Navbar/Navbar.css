@@ -6,21 +6,23 @@
 
 .main {
     display: flex;
-    background-image: linear-gradient(180deg, rgb(46, 46, 46), transparent);
+    background-image: linear-gradient(180deg, rgb(17, 17, 17), transparent);
     height: 3.5rem;
+    position: absolute;
+    z-index: 100;
 }
 
 .main-info {
     display: flex;
-    width: 70%;
+    width: 80%;
     align-items: center;
     margin-top: 0.3rem;
 }
 
 .logo {
-    width: 14%;
+    width: 10%;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .td {
@@ -40,7 +42,7 @@
 /* SECUNDARIA */
 
 .main-secundaria {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     margin-top: 0.3rem;
@@ -48,12 +50,12 @@
 }
 
 .buscar {
-    width: 7%;
+    width: 9%;
     margin-right: 10px;
 }
 
 .perfil {
-    width: 8%;
+    width: 10%;
     margin-right: 10px;
     border: 1px solid black;
     border-radius: 5px;
